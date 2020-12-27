@@ -1,6 +1,11 @@
 # Liunx
 
 ## 一、linux内核相关
+```v
+uname -r  // 查看内核版本
+uname -o //查看操作系统
+
+```
 ### 1.1 多内核安装
 
 [Linux内核地址](https://kernel.ubuntu.com/~kernel-ppa/mainline/)
