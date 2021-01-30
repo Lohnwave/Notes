@@ -34,3 +34,5 @@ cd blade-build
 在git blade库中找到relese blade-1.1.2
 ``https://github.com/chen3feng/blade-build/releases/tag/1.1.2``
 下载1.1.2安装包，安装。
+谷歌源
+``https://code.google.com/archive/p/typhoon-blade/downloads``
