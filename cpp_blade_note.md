@@ -5,6 +5,14 @@
 rm /usr/bin/python
 ln -s /usr/bin/python3.x /usr/bin/python
 ```
+Mac
+```
+nano ~/.bash_profile
+# 在行尾添加
+alias python=python3
+# 退出
+source ~/.bash_profile
+```
 2. 安装scons
 ```
 sudo apt install scons
