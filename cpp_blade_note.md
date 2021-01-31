@@ -23,7 +23,22 @@ wget http://prdownloads.sourceforge.net/scons/scons-4.0.1.tar.gz
 tar -xf scons-4.0.1.tar.gz
 sudo python3 scons-4.0.1/setup.py install
 ```
-3. 安装blade
+或者
+##blade build 报错 `except IOError, ex_value:`scons版本问题，安装python2-scons
+```
+# python2-scons
+wget http://prdownloads.sourceforge.net/scons/scons-3.1.2.tar.gz
+cd scons-3.1.2
+python bootstrap.py build/scons
+python build/scons/setup.py install
+
+```
+3. 安装devtoolset8
+```
+sudo/brew install/yum install devtoolset-8-toolchain
+./opt/rh/devtoolset-8/enable #把这个加到～/.bash_profile
+```
+4. 安装blade
 ```
 git clone https://github.com/chen3feng/blade-build.git
 cd blade-build
@@ -34,10 +49,10 @@ cd blade-build
 ```
  source ~/.profile
 ```
-4. 报ninja错误
+5. 报ninja错误
 安装ninja
 
-5. git安装blade在使用thirdparty时报``hrds``错误
+6. git安装blade在使用thirdparty时报``hrds``错误
 
 在git blade库中找到relese blade-1.1.2
 ``https://github.com/chen3feng/blade-build/releases/tag/1.1.2``
